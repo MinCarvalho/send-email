@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: #93dbff;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+
+.form-style > h1 {
+    color: #0a3449;
+    font-weight: 800;
+    margin: 0;
+}
+
+.form-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;  
+
+}
+
+.text > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #b5e1f7;
+    color: #000000;
+    font-size: 15pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+   
+}
+
+.text > input::placeholder{
+    color: #f0ffff94;
+}
+
+.text > label{
+    color: #0a3449;
+    margin-bottom: 10px;
+}
+
+
+
+.btn {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    width: 100px;
+    padding: 15px 50px;
+    margin: 4px auto;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #dddce0;
+    background: #14455e;
+    cursor: pointer;
+    box-shadow: 8px 10px 40px -12px rgba(1, 26, 39, 0.932);
+}
+
+
+
+.btn-ref {
+    color: #14455e;
+}
+
+.fundo {
+    width: 100vw;
+    height: 100vh;
+    background-color: #93dbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.form-email > h1 {
+    color: #14455e;
+    font-weight: 800;
+    margin: 0;
+}
+
+.form-email {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #66ccff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #58a5cc;
+
+}
+ 
+.text > textarea{
+    min-height: 13rem;
+    resize: vertical;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 55px;
+    background: #f0ffff94;
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+
+
